@@ -119,8 +119,8 @@ function App() {
     }
     return (
       <div>
-        User choose <b className="text-red-400">{selection}</b> and machine
-        choose <b className="text-red-400">{machineElection}</b>, so you{" "}
+        {userName} choose <b className="text-red-400">{selection}</b> and
+        machine choose <b className="text-red-400">{machineElection}</b>, so you{" "}
         <b className="text-blue-400">{result}</b>
       </div>
     );
